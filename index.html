@@ -15,6 +15,15 @@
         .card {
             background: whitesmoke;
             padding: 30px;
+            display: grid;
+            align-content: space-between;
+            /* Tweak gap to your liking */
+            gap: 20px;
+        }
+
+        .card-title {
+            /* HACK: tweak this number until you can fit 2 lines in the title */
+            height: 1em;
         }
 
         .card-image {
